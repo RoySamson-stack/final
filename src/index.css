@@ -3,7 +3,53 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  background-color: #00ABE1;
+  color: #fff;
+  padding : 20px
+}
 .main_header{
   display: flex;
   justify-content: space-between;
+  
+}
+.header_btn{
+  
+}
+.project_btn, .contact_btn{
+  padding: 15px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  transition: all 0.5s;
+  box-shadow: 0 10px 20px -8px rgba(0,0,0,0.7);
+}
+button:hover{
+transform: scale(1.2);
+}
+.project_btn{
+  background-color: #161F6D;
+  color: #fff;
+}
+.main_body{
+  margin-top: 50px;
+}
+.name{
+  font-size: 100px;
+  font-weight: bold;
+}
+.role{
+  font-size: 30px;
+  font-weight: bold;
+}
+.language_container{
+  display: flex;
+  justify-content: space-between;
+align-items: center;
+margin-top: 30px;
+}
+.language{
+  border: 1px solid black;
+  padding: 10px;
+  box-shadow: 0 10px 20px -8px rgba(0,0,0,0.7);
 }
