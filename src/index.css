@@ -46,9 +46,9 @@ transform: scale(1.2);
   display: flex;
   justify-content: space-between;
 align-items: center;
+margin-bottom: 50px;
 }
 .cube {
-  position: absolute;
   display: flex;
   justify-content: space-between;
   width: 80px;
@@ -88,7 +88,10 @@ align-items: center;
   background-color: rgb(165, 96, 231);
   box-shadow: -60px 60px 20px rgb(50 50 50 / 15%);
 }
-
+.about{
+  height: 100vh;
+  position: ;
+}
 #html:before {
   background-color: rgb(189, 142, 233);
 
