@@ -46,10 +46,224 @@ transform: scale(1.2);
   display: flex;
   justify-content: space-between;
 align-items: center;
-margin-top: 30px;
+}
+.cube {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 80px;
+  height: 80px;
+  transform: rotate(-25deg) skew(25deg);
+}
+
+.cube:before {
+  position: absolute;
+  content: "";
+  width: 21px;
+  height: 100%;
+  transform: skewY(-45deg);
+  left: -20px;
+  bottom: -10px;
+}
+
+.cube:after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 21px;
+  transform: skewX(-45deg);
+  left: -10px;
+  bottom: -20px;
 }
 .language{
   border: 1px solid black;
   padding: 10px;
-  box-shadow: 0 10px 20px -8px rgba(0,0,0,0.7);
+  box-shadow: -80px 80px 20px rgb(50 50 50 / 25%);
+}
+#html {
+  bottom: 15rem;
+  left: 250px;
+  /* background-image: url("img/html-square.png"); */
+  background-size: cover;
+  background-color: rgb(165, 96, 231);
+  box-shadow: -60px 60px 20px rgb(50 50 50 / 15%);
+}
+
+#html:before {
+  background-color: rgb(189, 142, 233);
+
+}
+
+#html:after {
+  background-color: rgb(204, 189, 218);
+}
+#css {
+  bottom: 15rem;
+  left: 900px;
+  /* background-image: url("img/html-square.png"); */
+  left: 450px;
+  bottom: 100px;
+  background-size: cover;
+  background-color: rgb(165, 96, 231);
+  box-shadow: -100px 100px 20px rgb(50 50 50 / 15%);
+}
+
+#css:before {
+  background-color: rgb(189, 142, 233);
+
+}
+
+#css:after {
+  background-color: rgb(204, 189, 218);
+}
+#js {
+  bottom: 80px;
+  left: 650px;
+  /* background-image: url("img/html-square.png"); */
+  background-size: cover;
+  background-color: rgb(165, 96, 231);
+  box-shadow: -80px 80px 20px rgb(50 50 50 / 25%);
+}
+
+#js:before {
+  background-color: rgb(189, 142, 233);
+
+}
+
+#js:after {
+  background-color: rgb(204, 189, 218);
+}
+#react {
+  bottom: 30rem;
+  left: 250px;
+  /* background-image: url("img/html-square.png"); */
+  background-size: cover;
+  background-color: rgb(165, 96, 231);
+  box-shadow: -80px 80px 20px rgb(50 50 50 / 15%);
+}
+
+#react:before {
+  background-color: rgb(189, 142, 233);
+
+}
+
+#react:after {
+  background-color: rgb(204, 189, 218);
+}
+#node {
+  bottom: 80px;
+  /* background-image: url("img/html-square.png"); */
+  background-size: cover;
+  background-color: rgb(165, 96, 231);
+  box-shadow: -80px 80px 20px rgb(50 50 50 / 25%);
+}
+
+#node:before {
+  background-color: rgb(189, 142, 233);
+
+}
+
+#node:after {
+  background-color: rgb(204, 189, 218);
+}
+#express {
+  bottom: 30rem;
+  left: 500px;
+  /* background-image: url("img/html-square.png"); */
+  background-size: cover;
+  background-color: rgb(165, 96, 231);
+  box-shadow: -60px 60px 20px rgb(50 50 50 / 15%);
+}
+
+#express:before {
+  background-color: rgb(189, 142, 233);
+
+}
+
+#express:after {
+  background-color: rgb(204, 189, 218);
+}
+#mongo {
+  bottom: 80px;
+  left: 300px;
+  /* background-image: url("img/html-square.png"); */
+  background-size: cover;
+  background-color: rgb(165, 96, 231);
+  box-shadow: -60px 60px 20px rgb(50 50 50 / 15%);
+}
+
+#mongo:before {
+  background-color: rgb(189, 142, 233);
+
+}
+
+#mongo:after {
+  background-color: rgb(204, 189, 218);
+}
+#sql {
+  bottom: 30rem;
+  left: 750px;
+  /* background-image: url("img/html-square.png"); */
+  background-size: cover;
+  background-color: rgb(165, 96, 231);
+  box-shadow: -60px 60px 20px rgb(50 50 50 / 15%);
+}
+
+#sql:before {
+  background-color: rgb(189, 142, 233);
+
+}
+
+#sql:after {
+  background-color: rgb(204, 189, 218);
+}
+#git {
+  bottom: 80px;
+  left: 650px;
+  /* background-image: url("img/html-square.png"); */
+  background-size: cover;
+  background-color: rgb(165, 96, 231);
+  box-shadow: -60px 60px 20px rgb(50 50 50 / 15%);
+}
+
+#git:before {
+  background-color: rgb(189, 142, 233);
+
+}
+
+#git:after {
+  background-color: rgb(204, 189, 218);
+}
+#github {
+  bottom: 20rem;
+  left: 150px;
+  /* background-image: url("img/html-square.png"); */
+  background-size: cover;
+  background-color: rgb(165, 96, 231);
+  box-shadow: -60px 60px 20px rgb(50 50 50 / 15%);
+}
+
+#github:before {
+  background-color: rgb(189, 142, 233);
+
+}
+
+#github:after {
+  background-color: rgb(204, 189, 218);
+}
+#php {
+  bottom:30rem;
+  /* background-image: url("img/html-square.png"); */
+  background-size: cover;
+  background-color: rgb(165, 96, 231);
+  box-shadow: -60px 60px 20px rgb(50 50 50 / 15%);
+}
+
+#php:before {
+  background-color: rgb(189, 142, 233);
+
+}
+
+#php:after {
+  background-color: rgb(204, 189, 218);
 }

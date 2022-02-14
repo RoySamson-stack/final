@@ -7,17 +7,21 @@ function Main() {
       <p className="name">Roy Samson</p>
       <p className="role">Full stack developer</p>
       <div className="language_container">
-        <p className="language">HTML</p>
-        <p className="language">CSS</p>
-        <p className="language">JavaScript</p>
-        <p className="language">React</p>
-        <p className="language">Node.js</p>
-        <p className="language">Express</p>
-        <p className="language">MongoDB</p>
-        <p className="language">MySQL</p>
-        <p className="language">Git</p>
-        <p className="language">Github</p>
-        <p className="language">PHP</p>
+        <p className="language cube" id="html">HTML</p>
+        <p className="language cube" id="css">CSS</p>
+        <p className="language cube" id="js">JavaScript</p>
+        <p className="language cube" id="react">React</p>
+        <p className="language cube" id="node">Node.js</p>
+        <p className="language cube" id="express">Express</p>
+        <p className="language cube" id="mongo">MongoDB</p>
+        <p className="language cube" id="sql">MySQL</p>
+        <p className="language cube" id="git">Git</p>
+        <p className="language cube" id="github">Github</p>
+        <p className="language cube" id="php">PHP</p>
+      </div>
+      <div className="about">
+        <h1 className="">About</h1>
+        <p>I am a full stack developer using the technologies above</p>
       </div>
     </div>
   )
