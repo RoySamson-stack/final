@@ -13,7 +13,6 @@ function projectFinal() {
           img={project.img}
           description={project.description}
           url={project.url}
-          className="cards"
         />
       ))}
       </div>
