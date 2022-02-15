@@ -5,7 +5,7 @@ import projects from "./projects"
 function projectFinal() {
   return (
     <div className="project">
-      <h1>PROJECTS</h1>
+      <h1>Projects</h1>
       <div className="project-cards">
       {projects.map((project) => (
         <ProjectCard
