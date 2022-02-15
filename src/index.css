@@ -115,12 +115,12 @@ button:hover {
   margin-top: 50px;
 }
 .cards {
-  background: #80d0e9;
-  border-radius: 7px;
-  box-shadow: 20px 20px 30px -10px #000000;
-  padding: 10px;
-  margin: 16px;
-  float: left;
+  background-color: var(--background);
+  display: block;
+  min-height: 90px;
+  border: 3px solid black;
+  padding: 15px;
+  box-shadow: 10px -10px 0 0px #1FC11B;
 }
 .profile-pic{
   width: 100%;
