@@ -4,7 +4,7 @@ import projects from "./projects";
 
 function ProjectCard(props) {
   return (
-      <div className="project_card">
+      <div className="cards">
         <img src={props.img} className="" alt="projectimage" />
         <p>{props.name}</p>
         <p>{props.description}</p>
