@@ -107,6 +107,13 @@ button:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+}.live-link{
+  padding: 10px;
+  background-color: #161f6d;
+  color: #fff;
+  margin-top: 10px;
+  text-decoration: none;
+  border-radius: 5px;
 }
 .project-cards {
   display: grid;

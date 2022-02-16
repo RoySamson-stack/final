@@ -8,7 +8,7 @@ function ProjectCard(props) {
         <img src={props.img} className="" alt="projectimage" />
         <p>{props.name}</p>
         <p>{props.description}</p>
-        <a href={props.url}>{props.url}</a>
+        <a href={props.url} className="live-link">live site</a>
       </div>
   );
 }
