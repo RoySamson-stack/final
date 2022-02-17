@@ -139,7 +139,7 @@ button:hover {
 }
 #html {
   left: 0px;
-  /* background-image: url("img/html-square.png"); */
+  background-image: url("./components/img/html.jpeg");
   background-size: cover;
   background-color: rgb(165, 96, 231);
   box-shadow: -60px 60px 20px rgb(50 50 50 / 15%);
@@ -153,7 +153,7 @@ button:hover {
 }
 #css {
   left: 100px;
-  /* background-image: url("img/html-square.png"); */
+  background-image: url("./components/img/css.png");
   background-size: cover;
   background-color: rgb(165, 96, 231);
   box-shadow: -100px 100px 20px rgb(50 50 50 / 15%);
@@ -168,8 +168,9 @@ button:hover {
 }
 #js {
   left: 200px;
-  /* background-image: url("img/html-square.png"); */
+  background-image: url("./components/img/js.jpeg");
   background-size: cover;
+  background-position: center;
   background-color: rgb(165, 96, 231);
   box-shadow: -80px 80px 20px rgb(50 50 50 / 25%);
 }
@@ -183,7 +184,7 @@ button:hover {
 }
 #react {
   left: 300px;
-  /* background-image: url("img/html-square.png"); */
+  background-image: url("./components/img/react.jpeg");
   background-size: cover;
   background-color: rgb(165, 96, 231);
   box-shadow: -80px 80px 20px rgb(50 50 50 / 15%);
@@ -198,8 +199,9 @@ button:hover {
 }
 #node {
   left: 400px;
-  /* background-image: url("img/html-square.png"); */
+  background-image: url("./components/img/node.png");
   background-size: cover;
+  background-position: center;
   background-color: rgb(165, 96, 231);
   box-shadow: -80px 80px 20px rgb(50 50 50 / 25%);
 }
@@ -228,7 +230,7 @@ button:hover {
 }
 #mongo {
   left: 600px;
-  /* background-image: url("img/html-square.png"); */
+  background-image: url("./components/img/mongo.jpeg");
   background-size: cover;
   background-color: rgb(165, 96, 231);
   box-shadow: -60px 60px 20px rgb(50 50 50 / 15%);
@@ -243,7 +245,7 @@ button:hover {
 }
 #sql {
   left: 700px;
-  /* background-image: url("img/html-square.png"); */
+  background-image: url("./components/img/mysql.jpeg");
   background-size: cover;
   background-color: rgb(165, 96, 231);
   box-shadow: -60px 60px 20px rgb(50 50 50 / 15%);
@@ -258,7 +260,7 @@ button:hover {
 }
 #git {
   left: 800px;
-  /* background-image: url("img/html-square.png"); */
+  background-image: url("./components/img/git.jpeg");
   background-size: cover;
   background-color: rgb(165, 96, 231);
   box-shadow: -60px 60px 20px rgb(50 50 50 / 15%);
@@ -273,7 +275,7 @@ button:hover {
 }
 #github {
   left: 900px;
-  /* background-image: url("img/html-square.png"); */
+  background-image: url("./components/img/github.png");
   background-size: cover;
   background-color: rgb(165, 96, 231);
   box-shadow: -60px 60px 20px rgb(50 50 50 / 15%);
@@ -288,7 +290,7 @@ button:hover {
 }
 #php {
   left:1000px;
-  /* background-image: url("img/html-square.png"); */
+  background-image: url("./components/img/php.png");
   background-size: cover;
   background-color: rgb(165, 96, 231);
   box-shadow: -60px 60px 20px rgb(50 50 50 / 15%);
