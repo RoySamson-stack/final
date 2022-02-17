@@ -5,7 +5,7 @@ function Main() {
   return (
     <div className="main_body">
       <p className="name">Roy Samson</p>
-      <p className="role">Full stack developer</p>
+      <p className="role">I am a full stack developer</p>
       <div className="language_container">
         <p className="language cube" id="html">HTML</p>
         <p className="language cube" id="css">CSS</p>

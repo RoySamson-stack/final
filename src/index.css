@@ -96,8 +96,11 @@ button:hover {
 }
 .about-content {
   font-size: 25px;
-display: grid;
-grid-template-columns: 1fr 1fr;  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+
 }
 .project h1 {
   font-size: 50px;
@@ -307,8 +310,9 @@ grid-template-columns: 1fr 1fr;
     margin-bottom: 50px;
   }
   .profile-pic{
-    width:100%;
+    width:20rem;
     height: 100%;
+    shape-outside: polygon(0px 0px, 0px 189px, 100.48% 94.71%, 200px 120px, 80.67% 37.17%); shape-outside: polygon(0px 0px, 0px 189px, 100.48% 94.71%, 200px 120px, 80.67% 37.17%);
     border-radius: 25%;
     object-fit: cover;
   }
