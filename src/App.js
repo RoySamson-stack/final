@@ -2,6 +2,7 @@ import Header from "./components/header"
 import Main from "./components/main"
 import About from "./components/about"
 import Project from "./components/projectFinal"
+import Contact from "./components/contact"
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
     <Main />
     <About />
     <Project />
+    <Contact />
     </div>
   );
 }

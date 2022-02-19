@@ -6,11 +6,12 @@
 body {
   background-color: #00abe1;
   color: #fff;
-  padding: 20px;
+  /* padding: 20px; */
 }
 .main_header {
   display: flex;
   justify-content: space-between;
+  padding: 20px;
 }
 .header_btn {
 }
@@ -32,6 +33,7 @@ button:hover {
 }
 .main_body {
   margin-bottom: 50px;
+  padding: 20px;
 }
 .name {
   font-size: 100px;
@@ -102,6 +104,9 @@ button:hover {
   align-items: center;  
 
 }
+.project{
+  padding: 20px;
+}
 .project h1 {
   font-size: 50px;
   font-weight: bold;
@@ -136,6 +141,30 @@ button:hover {
   height: 100%;
   border-radius: 25%;
   object-fit: cover;
+}
+.contact{
+  background-color: #067b9e;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.contact-form{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  justify-content: space-between;
+}
+.name-input, .email-input , .messages-input{
+  width: 30rem;
+  padding: 5px;
+  border-radius: 10px;
+}
+.contact-form button{
+  width: 50px;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: rgb(1, 1, 163);
+  color: white;
 }
 #html {
   left: 0px;
