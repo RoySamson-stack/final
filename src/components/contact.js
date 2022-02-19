@@ -6,6 +6,8 @@ export default function Contact(){
   return(
     <div className="contact">
       <form className="contact-form">
+      <h1 className="contact-title">Contact</h1>
+
         <input type="text" placeholder="Name" className="name-input"/>
         <br />
         <input type="email" placeholder="Email" className="email-input" />
