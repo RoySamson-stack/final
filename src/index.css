@@ -146,7 +146,13 @@ button:hover {
 .contact {
   background-color: #067b9e;
   display: flex;
+  columns: 2;
   justify-content: center;
+}
+.contact-content {
+  font-size: 20px;
+  padding: 20px;
+  margin: 20px;
 }
 .contact-title {
   display: flex;
@@ -162,7 +168,7 @@ button:hover {
   justify-content: space-between;
 }
 .name-input,
-.email-input {
+.email-input , .subject-input{
   width: 30rem;
   padding: 5px;
   border-radius: 10px;
@@ -173,7 +179,7 @@ button:hover {
   height: 100px;
   border-radius: 10px;
 }
-.contact-form button {
+.contact-btn {
   width: 50px;
   padding: 5px;
   border-radius: 10px;
@@ -376,7 +382,7 @@ button:hover {
     object-fit: cover;
   }
   .language_container {
-    display: flex;
+    display: none;
     position: relative;
     flex-direction: column;
     columns: 2;
