@@ -196,10 +196,15 @@ button:hover {
     align-items: center;
   }
 .social-icons{
-  
   width: 40px;
   height: 40px;
   margin: 10px;
+}
+.social-icons:hover{
+  transform: scale(1.2);
+}
+#linkedin-icon{
+  color: blue;
 }
 #html {
   left: 0px;

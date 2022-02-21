@@ -45,8 +45,12 @@ export default function Contact() {
       <div className="socials">
       <h1 className="contact-title">Socials</h1>
       <div className="socials-container">
-      <img src={Github} className="social-icons"id="linke" />
-      <img src={Linkedin}  className="social-icons"/>
+     <a href="https://www.linkedin.com/in/samsonroy/">  
+     <img src={Github} className="social-icons"id="github-icon" />
+     </a> 
+     <a href="https://github.com/RoySamson-stack">
+     <img src={Linkedin}  className="social-icons" id="linkedin-icon"/>
+     </a>
       </div>
       </div>
     </div>
