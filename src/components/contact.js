@@ -1,5 +1,7 @@
 import React, { useRef } from "react";
 import emailjs from "emailjs-com";
+import Github from "./img/github.png"
+import Linkedin from "./img/linkedin.png"
 
 export default function Contact() {
   const form = useRef();
@@ -28,6 +30,7 @@ export default function Contact() {
   return (
     <div className="contact">
       <form ref={form} onSubmit={sendEmail} className="contact-form">
+      <h1>CONTACT</h1>
         <label>Subject</label>
         <input type="text" name="subject" className="subject-input" />
         <label>Name</label>
@@ -38,6 +41,14 @@ export default function Contact() {
         <textarea name="message" className="messages-input" />
         <input type="submit" value="Send" className="contact-btn" />
       </form>
+      
+      <div className="socials">
+      <h1 className="contact-title">Socials</h1>
+      <div className="socials-container">
+      <img src={Github} className="social-icons"id="linke" />
+      <img src={Linkedin}  className="social-icons"/>
+      </div>
+      </div>
     </div>
   );
 }

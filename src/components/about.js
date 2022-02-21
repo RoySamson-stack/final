@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import profile from "./img/me.JPG"
 
+
 function About() {
   return (
     <div className="about">
