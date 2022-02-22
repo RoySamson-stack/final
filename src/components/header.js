@@ -13,6 +13,8 @@ function Header(){
           .pauseFor(2000)
           .deleteAll()
           .typeString("<h1>Welcome to my page!</h1>")
+          .deleteAll()
+          .typeString('<h1>Thank you for visiting my page</h1>')
           .start();
         }}
       /> 
