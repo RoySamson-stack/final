@@ -1,6 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import profile from "./img/me.JPG"
+import Github from "./img/github.png";
+import Linkedin from "./img/linkedin.png";
 
 
 function About() {
@@ -13,6 +15,17 @@ function About() {
         I am currenlty a freelancer doing projects and also still doing personal projects and learning more
         languages and frameworks.
       </p>
+      </div>
+      <div className="socials">
+        <h1 className="contact-title">Socials</h1>
+        <div className="socials-container">
+          <a href="https://www.linkedin.com/in/samsonroy/">
+            <img src={Github} className="social-icons" id="github-icon" />
+          </a>
+          <a href="https://github.com/RoySamson-stack">
+            <img src={Linkedin} className="social-icons" id="linkedin-icon" />
+          </a>
+        </div>
       </div>
     </div>
   );

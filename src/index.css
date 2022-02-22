@@ -142,12 +142,13 @@ button:hover {
   margin-right: 20px;
   border-radius: 25%;
   object-fit: cover;
+  float: left;
 }
 .contact {
   background-color: #067b9e;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  display: flex;
   justify-content: center;
+  align-items: center;
 }
 .contact-content {
   font-size: 20px;
@@ -162,6 +163,7 @@ button:hover {
   padding: 10px;
 }
 .contact-form {
+  margin: 50px;
   display: flex;
   flex-direction: column;
   padding: 10px;
