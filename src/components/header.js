@@ -1,14 +1,24 @@
 import React from 'react'
 import ReactDOM from "react-dom"
+import Typewriter from 'typewriter-effect';
 
 
 function Header(){
   return(
     <div className="main_header">
-      <h1>Hello world</h1>
+      <Typewriter
+      className="typewriter"
+      onInit={(typewriter) =>{
+          typewriter.typeString("<h1>Hello world</h1>")
+          .pauseFor(2000)
+          .deleteAll()
+          .typeString("<h1>Welcome to my page!</h1>")
+          .start();
+        }}
+      /> 
       <div className="header_btn">
-      <button className="project_btn" id="">Projects</button>
-      <button className="contact_btn">Contact</button>  
+      <a href="#projects" className="project_btn" id="">Projects</a>
+      <a href="#contacts" className="contact_btn">Contact</a>  
       </div>   
     </div>
   )
