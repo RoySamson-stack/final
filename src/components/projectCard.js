@@ -1,6 +1,4 @@
 import React from "react";
-import ReactDOM from "react-dom";
-import projects from "./projects";
 
 function ProjectCard(props) {
   return (

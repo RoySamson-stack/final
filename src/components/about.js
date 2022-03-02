@@ -10,7 +10,7 @@ function About() {
     <div className="about">
       <h1 className="">About</h1>
       <div className="about-content">
-      <img src={profile} alt="profile" className="profile-pic" />
+      <img src={profile} alt="profile" className="profile-pic"/>
       <p>I am a full stack developer currenlty located in Nairobi, Kenya.
         I am currenlty a freelancer doing projects and also still doing personal projects and learning more
         languages and frameworks.
@@ -20,10 +20,10 @@ function About() {
         <h1 className="contact-title">Socials</h1>
         <div className="socials-container">
           <a href="https://www.linkedin.com/in/samsonroy/">
-            <img src={Github} className="social-icons" id="github-icon" />
+            <img src={Github} className="social-icons" alt="icons" id="github-icon" />
           </a>
           <a href="https://github.com/RoySamson-stack">
-            <img src={Linkedin} className="social-icons" id="linkedin-icon" />
+            <img src={Linkedin} className="social-icons" id="linkedin-icon" alt="icon"/>
           </a>
         </div>
       </div>
