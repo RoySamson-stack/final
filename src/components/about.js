@@ -1,5 +1,4 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import profile from "./img/me.JPG"
 import Github from "./img/github.png";
 import Linkedin from "./img/linkedin.png";
