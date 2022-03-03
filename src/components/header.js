@@ -2,21 +2,9 @@ import React, {Component} from 'react'
 import Typewriter from 'typewriter-effect';
 import $ from 'jquery' 
 
-class Header extends Component{
+function Header(){
 
-  Jquerycode = () =>{
-   $('.switch').addEventListener('click', () => {
-      document.body.classList.toggle('dark');
-      });
-  }
   
-
-
-  componentDidMount(){
-    this.Jquerycode()
-  }
-
-  render(){
     return(
       <div className="main_header">
         <Typewriter
@@ -43,7 +31,6 @@ class Header extends Component{
        
       </div>
     )
-  }
   }
  
 export default Header
