@@ -5,7 +5,7 @@ import $ from 'jquery'
 class Header extends Component{
 
   Jquerycode = () =>{
-    ('.switch').addEventListener('click', () => {
+   $('.switch').addEventListener('click', () => {
       document.body.classList.toggle('dark');
       });
   }
