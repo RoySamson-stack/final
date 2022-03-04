@@ -63,7 +63,8 @@ a:hover{
   position: relative;
   /* flex-direction: column; */
   align-items: center;
-  justify-content: center;
+  font-size:30px;
+  justify-content: space-between;
   box-sizing: border-box;
   animation: slider 6s linear infinite;
 }
