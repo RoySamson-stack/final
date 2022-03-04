@@ -11,8 +11,8 @@ function Main() {
         <p className='language cube' id='html'>HTML</p>
         <p className="language cube" id="js">Javascript</p>
         <p className="language cube" id="react">React</p>
-        <p className="language cube" id="node">Node js</p>
-        <p className="language cube" id="express">Express js</p>
+        <p className="language cube" id="node">Nodejs</p>
+        <p className="language cube" id="express">Expressjs</p>
         <p className="language cube" id="mongo">MongoDB</p>
         <p className="language cube" id="sql">MySQL</p>
         <p className="language cube" id="git">Git</p>
