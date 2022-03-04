@@ -4,7 +4,7 @@ import $ from 'jquery'
 
 function Header(){
 
-  
+
     return(
       <div className="main_header">
         <Typewriter

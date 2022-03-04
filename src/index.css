@@ -5,8 +5,8 @@
   scroll-behavior: smooth;
 }
 body {
-  background-color: rgb(236, 216, 233);
-  color: rgb(59, 56, 56);
+  background-color: #90ADC6;
+  color: #E9EAEC;
     /* padding: 20px; */
 }
 .main_header {
@@ -36,6 +36,7 @@ a:hover{
 }
 .contact_btn{
   color: white;
+  background-color:#F3D849; 
 }
 .project_btn {
   background-color: #161f6d;
@@ -53,51 +54,35 @@ a:hover{
   font-size: 30px;
   font-weight: bold;
 }
+.name, .role{
+  display: flex;
+  justify-content: center;
+}
 .language_container {
   display: flex;
   position: relative;
   /* flex-direction: column; */
   align-items: center;
-  margin-top: 50px;
-  margin-left: 25%;
   justify-content: center;
+  box-sizing: border-box;
+  animation: slider 6s linear infinite;
 }
-.cube {
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  width: 80px;
-  height: 80px;
-  transform: rotate(-25deg) skew(25deg);
+@keyframes language_container {
+  0%{margin-top: -200px;}
+  30%{margin-top:-200px;}
+  35%{margin-top:0px;}
+  65%{margin-top:0px;}
+  70%{margin-top:200px;}
+  100%{margin-top: 200px;}
 }
-
-.cube:before {
-  position: absolute;
-  content: "";
-  width: 21px;
-  height: 100%;
-  transform: skewY(-45deg);
-  left: -20px;
-  bottom: -10px;
-}
-
-.cube:after {
-  position: absolute;
-  content: "";
-  width: 100%;
-  height: 21px;
-  transform: skewX(-45deg);
-  left: -10px;
-  bottom: -20px;
-}
-.language {
+/* .language {
   border: 1px solid black;
   padding: 10px;
   box-shadow: -80px 80px 20px rgb(50 50 50 / 25%);
-}
+} */
 
 .about {
-  margin: 50px;
+  margin: 100px;
 }
 .about h1 {
   font-size: 50px;
@@ -111,6 +96,11 @@ a:hover{
  columns: 2;
  display: flex;
  justify-content: center;
+}
+.about-content p{
+  margin-top: 20px;
+  inline-size: 300px;
+  overflow-wrap: break-word;
 }
 .project {
   padding: 20px;
@@ -142,8 +132,9 @@ a:hover{
   min-height: 90px;
   border: 3px solid black;
   padding: 20px;
-  background-color: #067b9e;
-  box-shadow: 10px -10px 0 0px #1fc11b;
+  color: white;
+  background-color: #333652;
+  box-shadow: 10px -10px 0 0px #D67940;
 }
 .profile-pic {
   width: 20rem;
@@ -154,8 +145,9 @@ a:hover{
   float: left;
 }
 .contact {
-  background-color: #067b9e;
+  background-color: #333652;
   display: flex;
+  color: white;
   justify-content: center;
   align-items: center;
 }
@@ -268,173 +260,7 @@ a:hover{
 #linkedin-icon{
   color: blue;
 }
-#html {
-  left: 0px;
-  background-image: url("./components/img/html-square.png");
-  background-size: cover;
-  background-color: rgb(165, 96, 231);
-  box-shadow: -60px 60px 20px rgb(50 50 50 / 15%);
-}
-#html:before {
-  background-color: rgb(189, 142, 233);
-}
 
-#html:after {
-  background-color: rgb(204, 189, 218);
-}
-#css {
-  left: 100px;
-  background-image: url("./components/img/css-square.png");
-  background-size: cover;
-  background-color: rgb(165, 96, 231);
-  box-shadow: -100px 100px 20px rgb(50 50 50 / 15%);
-}
-
-#css:before {
-  background-color: rgb(189, 142, 233);
-}
-
-#css:after {
-  background-color: rgb(204, 189, 218);
-}
-#js {
-  left: 200px;
-  background-image: url("./components/img/js.jpeg");
-  background-size: cover;
-  background-position: center;
-  background-color: rgb(165, 96, 231);
-  box-shadow: -80px 80px 20px rgb(50 50 50 / 25%);
-}
-
-#js:before {
-  background-color: rgb(189, 142, 233);
-}
-
-#js:after {
-  background-color: rgb(204, 189, 218);
-}
-#react {
-  left: 300px;
-  background-image: url("./components/img/react-square.png");
-  background-size: cover;
-  background-color: rgb(165, 96, 231);
-  box-shadow: -80px 80px 20px rgb(50 50 50 / 15%);
-}
-
-#react:before {
-  background-color: rgb(189, 142, 233);
-}
-
-#react:after {
-  background-color: rgb(204, 189, 218);
-}
-#node {
-  left: 400px;
-  background-image: url("./components/img/node.png");
-  background-size: cover;
-  background-position: center;
-  background-color: rgb(165, 96, 231);
-  box-shadow: -80px 80px 20px rgb(50 50 50 / 25%);
-}
-
-#node:before {
-  background-color: rgb(189, 142, 233);
-}
-
-#node:after {
-  background-color: rgb(204, 189, 218);
-}
-#express {
-  left: 500px;
-  /* background-image: url("img/html-square.png"); */
-  background-size: cover;
-  background-color: rgb(165, 96, 231);
-  box-shadow: -60px 60px 20px rgb(50 50 50 / 15%);
-}
-
-#express:before {
-  background-color: rgb(189, 142, 233);
-}
-
-#express:after {
-  background-color: rgb(204, 189, 218);
-}
-#mongo {
-  left: 600px;
-  background-image: url("./components/img/mongo.jpeg");
-  background-size: cover;
-  background-color: rgb(165, 96, 231);
-  box-shadow: -60px 60px 20px rgb(50 50 50 / 15%);
-}
-
-#mongo:before {
-  background-color: rgb(189, 142, 233);
-}
-
-#mongo:after {
-  background-color: rgb(204, 189, 218);
-}
-#sql {
-  left: 700px;
-  background-image: url("./components/img/mysql.jpeg");
-  background-size: cover;
-  background-color: rgb(165, 96, 231);
-  box-shadow: -60px 60px 20px rgb(50 50 50 / 15%);
-}
-
-#sql:before {
-  background-color: rgb(189, 142, 233);
-}
-
-#sql:after {
-  background-color: rgb(204, 189, 218);
-}
-#git {
-  left: 800px;
-  background-image: url("./components/img/git.jpeg");
-  background-size: cover;
-  background-color: rgb(165, 96, 231);
-  box-shadow: -60px 60px 20px rgb(50 50 50 / 15%);
-}
-
-#git:before {
-  background-color: rgb(189, 142, 233);
-}
-
-#git:after {
-  background-color: rgb(204, 189, 218);
-}
-#github {
-  left: 900px;
-  background-image: url("./components/img/github.png");
-  background-size: cover;
-  background-color: rgb(165, 96, 231);
-  box-shadow: -60px 60px 20px rgb(50 50 50 / 15%);
-}
-
-#github:before {
-  background-color: rgb(189, 142, 233);
-}
-
-#github:after {
-  background-color: rgb(204, 189, 218);
-}
-#php {
-  left: 1000px;
-  background-image: url("./components/img/php.png");
-  background-size: cover;
-  background-position: center;
-  background-color: rgb(165, 96, 231);
-  box-shadow: -60px 60px 20px rgb(50 50 50 / 15%);
-}
-
-#php:before {
-  background-color: rgb(189, 142, 233);
-}
-
-#php:after {
-  background-color: rgb(204, 189, 218);
-}
 
 @media screen and (max-width: 992px) {
   .project-cards {
