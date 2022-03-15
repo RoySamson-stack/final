@@ -7,7 +7,7 @@ function ProjectCard(props) {
         <p>{props.name}</p>
         <p>{props.description}</p>
         <br/>
-        <a href={props.url} className="live-link">live site</a>
+        <a href={props.url} className="live-link" target="blank">live site</a>
       </div>
   );
 }

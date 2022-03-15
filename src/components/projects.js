@@ -26,7 +26,7 @@ const projects = [
     name: "Drumkit",
     description: "A simple app to keep track of your tasks",
     image: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.M8IkRG_uAqneyUi8kF7bWgHaHa%26pid%3DApi&f=1",
-    url: "https://github.com",
+    url: "https://roysamson-stack.github.io/DrumKit/",
   },
   {
     id: 5, 
@@ -40,14 +40,21 @@ const projects = [
     name: "Dice game",
     description: "A simple app to keep track of your tasks",
     image: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.M8IkRG_uAqneyUi8kF7bWgHaHa%26pid%3DApi&f=1",
-    url: "https://github.com",
+    url: "https://roysamson-stack.github.io/dice-game-/",
   },
   {
     id: 7, 
     name: "Simons game",
     description: "A simple app to keep track of your tasks",
     image: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.M8IkRG_uAqneyUi8kF7bWgHaHa%26pid%3DApi&f=1",
-    url: "https://github.com",
+    url: "https://roysamson-stack.github.io/simons-game-/",
+  },
+  {
+    id: 8, 
+    name: "Black Jack",
+    description: "A simple black jack web app",
+    image: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.M8IkRG_uAqneyUi8kF7bWgHaHa%26pid%3DApi&f=1",
+    url: "https://roysamson-stack.github.io/blackjack/",
   },
 ]
 export default projects
