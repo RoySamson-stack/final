@@ -9,10 +9,7 @@ function projectFinal() {
       <div className="project-cards">
       {projects.map((project) => (
         <ProjectCard
-          name={project.name}
-          img={project.img}
-          description={project.description}
-          url={project.url}
+        {...project}
         />
       ))}
       </div>
