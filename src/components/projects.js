@@ -5,7 +5,7 @@ const projects = [
     name: "Keeper app",
     description: "A simple app to keep track of your tasks",
     image: "./img/keeper.jpeg",
-    url: "https://github.com",
+    url: "https://festive-borg-82f4d1.netlify.app/",
   },
   {
     id: 2, 

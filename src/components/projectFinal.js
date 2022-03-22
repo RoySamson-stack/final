@@ -7,7 +7,9 @@ function projectFinal() {
     <div className="project" id="projects">
       <h1>Projects</h1>
       <div className="project-cards">
+
       {projects.map((project) => (
+        
         <ProjectCard
         {...project}
         />
