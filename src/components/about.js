@@ -14,6 +14,8 @@ function About() {
         Javascript. 
 
         Fast-forward am currently can do both frontend and backend developement using technologies such as React for frontend and Nodejs for backend.
+
+        Techologies I have used as listed below.
         <div className="lang-list">
           <ul>
           <li>Javascript</li>
@@ -25,6 +27,7 @@ function About() {
           <li>Expressjs</li>
           <li>Nodejs</li>
         </ul></div>
+        You can also iew more projects that are not listed below on my github.
       </p>
       <img src={profile} alt="profile" className="profile-pic"/>
       </div>
