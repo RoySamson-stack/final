@@ -9,9 +9,22 @@ function About() {
     <div className="about">
       <h1 className="">About</h1>
       <div className="about-content">
-      <p>I am a full stack developer currenlty located in Nairobi, Kenya.
-        I am currenlty a freelancer doing projects and also still doing personal projects and learning more
-        languages and frameworks.
+      <p>Hello my name is Roy Samson and I love creating web apps and websites. I started my web development journey back in 2020
+        by starting out in Youtube tutorials and eventually enrolled in Moringa school in 2021 and did the Introduction to programming module learning HTML , CSS and 
+        Javascript. 
+
+        Fast-forward am currently can do both frontend and backend developement using technologies such as React for frontend and Nodejs for backend.
+        <div className="lang-list">
+          <ul>
+          <li>Javascript</li>
+          <li>HTML</li>
+          <li>CSS</li>
+        </ul>
+        <ul>
+          <li>React</li>
+          <li>Expressjs</li>
+          <li>Nodejs</li>
+        </ul></div>
       </p>
       <img src={profile} alt="profile" className="profile-pic"/>
       </div>

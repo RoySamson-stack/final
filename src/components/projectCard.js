@@ -8,13 +8,13 @@ function ProjectCard(props) {
         <img src={props.image} className="project-img" alt="projectimage" />
         </div>
         <div className="card-details">
-              <p>{props.name}</p>
+              <p className="project-name">{props.name}</p>
         <p>{props.description}</p>
         <br/>
         <a href={props.url} className="" target="blank">
           <img src={link} className="live-link" alt="live"/>
         </a>
-        <p>{props.language}</p>
+        <p className="languages">{props.language}</p>
         </div>
       
       </div>

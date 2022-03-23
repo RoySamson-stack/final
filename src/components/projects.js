@@ -20,9 +20,9 @@ const projects = [
     id: 3, 
     name: "Todolist",
     description: "A todolist to track tasks ",
-    image: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.M8IkRG_uAqneyUi8kF7bWgHaHa%26pid%3DApi&f=1",
+    image: "https://thumbs.dreamstime.com/z/to-do-list-illustration-pencil-colourful-paper-41004261.jpg",
     url: "https://arcane-sea-80644.herokuapp.com/",
-    language: "HTML, CSS, Javascript"
+    language: "Mongoose, CSS, Express, Ejs"
   },
   {
     id: 4, 
@@ -52,7 +52,7 @@ const projects = [
     id: 7, 
     name: "Simons game",
     description: "A Simons game web app",
-    image: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.M8IkRG_uAqneyUi8kF7bWgHaHa%26pid%3DApi&f=1",
+    image: "http://realitypod.com/wp-content/uploads/2015/06/simon-game.jpg",
     url: "https://roysamson-stack.github.io/simons-game-/",
     language: "HTML, CSS, Javascript"
   },

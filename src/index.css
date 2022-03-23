@@ -110,15 +110,20 @@ a:hover {
 }
 .about-content {
   font-size: 25px;
-  /* rows: 2; */
+  columns: 2;
   display:flex;
   justify-content: space-around;
-  align-items: center;
-  flex-direction: column;
+  
 }
+.lang-list{
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
 .about-content p {
   margin-top: 20px;
-  inline-size: 300px;
+  inline-size: 30em;
   overflow-wrap: break-word;
 }
 .project {
@@ -133,12 +138,17 @@ a:hover {
   align-items: center;
 }
 .live-link {
-  padding: 10px;
+  padding: 3px;
   background-color: #fff;
   margin-bottom: 10px;
   text-decoration: none;
-  width: 50px;
+  width: 30px;
   border-radius: 5px;
+}
+.project-name{
+  font-size: 20px;
+  color: lightgreen;
+  font-weight: bold;
 }
 .project-cards {
   display: grid;
@@ -170,10 +180,9 @@ a:hover {
 .profile-pic {
   width: 20rem;
   height: 100%;
-  margin-right: 20px;
   border-radius: 25%;
   object-fit: cover;
-  float: left;
+  /* float: left; */
 }
 .contact {
   background-color: #333652;
