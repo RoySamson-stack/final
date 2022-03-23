@@ -1,17 +1,21 @@
 import React from "react";
+import link from "./img/exit-top-right.png";
 
 function ProjectCard(props) {
   return (
       <div className="cards">
         <div className="card-img">
-        <img src={`../img/${props.image}`} className="" alt="projectimage" />
+        <img src={props.image} className="project-img" alt="projectimage" />
         </div>
         <div className="card-details">
-        <p>{props.name}</p>
+              <p>{props.name}</p>
         <p>{props.description}</p>
         <br/>
-        <a href={props.url} className="live-link" target="blank">live site</a>
+        <a href={props.url} className="" target="blank">
+          <img src={link} className="live-link" alt="live"/>
+        </a>
         </div>
+      
       </div>
   );
 }

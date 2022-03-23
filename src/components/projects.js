@@ -4,14 +4,14 @@ const projects = [
     id: 1, 
     name: "Keeper app",
     description: "A simple app to keep track of your tasks",
-    image: "./img/keeper.jpeg",
+    image: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.M8IkRG_uAqneyUi8kF7bWgHaHa%26pid%3DApi&f=1",
     url: "https://festive-borg-82f4d1.netlify.app/",
   },
   {
     id: 2, 
     name: "Newsletter",
     description: "A simple app to keep track of your tasks",
-    image: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.M8IkRG_uAqneyUi8kF7bWgHaHa%26pid%3DApi&f=1",
+    image: "http://crrf.ca/wp-content/uploads/2016/12/newsletter.png",
     url: "https://afternoon-retreat-29775.herokuapp.com/",
   },
   {
@@ -25,7 +25,7 @@ const projects = [
     id: 4, 
     name: "Drumkit",
     description: "A simple app to keep track of your tasks",
-    image: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.M8IkRG_uAqneyUi8kF7bWgHaHa%26pid%3DApi&f=1",
+    image: "https://bothners.co.za/wp-content/uploads/2019/07/Tama-STAGESTAR-5-PIECE-DRUMKIT-Black.jpg",
     url: "https://roysamson-stack.github.io/DrumKit/",
   },
   {
@@ -39,7 +39,7 @@ const projects = [
     id: 6, 
     name: "Dice game",
     description: "A simple app to keep track of your tasks",
-    image: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.M8IkRG_uAqneyUi8kF7bWgHaHa%26pid%3DApi&f=1",
+    image: "https://www.riverforestlibrary.org/wp-content/uploads/2016/11/two-green-dices-isolated-on-white_G1mELMid-e1478026860571.jpg",
     url: "https://roysamson-stack.github.io/dice-game-/",
   },
   {
@@ -53,7 +53,7 @@ const projects = [
     id: 8, 
     name: "Black Jack",
     description: "A simple black jack web app",
-    image: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.M8IkRG_uAqneyUi8kF7bWgHaHa%26pid%3DApi&f=1",
+    image: "https://thekatynews.com/wp-content/uploads/2020/10/Black-Jack-1024x576.png",
     url: "https://roysamson-stack.github.io/blackjack/",
   },
 ]

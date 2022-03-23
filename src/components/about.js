@@ -19,10 +19,10 @@ function About() {
         <h1 className="contact-title">Socials</h1>
         <div className="socials-container">
           <a href="https://www.linkedin.com/in/samsonroy/">
-            <img src={Github} className="social-icons" alt="icons" id="github-icon" />
+            <img src={Linkedin} className="social-icons" alt="icons" id="github-icon" />
           </a>
           <a href="https://github.com/RoySamson-stack">
-            <img src={Linkedin} className="social-icons" id="linkedin-icon" alt="icon"/>
+            <img src={Github} className="social-icons" id="linkedin-icon" alt="icon"/>
           </a>
         </div>
       </div>
