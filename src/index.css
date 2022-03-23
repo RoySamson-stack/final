@@ -110,9 +110,11 @@ a:hover {
 }
 .about-content {
   font-size: 25px;
-  columns: 2;
-  display: flex;
-  justify-content: center;
+  /* rows: 2; */
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
 }
 .about-content p {
   margin-top: 20px;

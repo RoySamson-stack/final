@@ -14,6 +14,7 @@ function ProjectCard(props) {
         <a href={props.url} className="" target="blank">
           <img src={link} className="live-link" alt="live"/>
         </a>
+        <p>{props.language}</p>
         </div>
       
       </div>
