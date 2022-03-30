@@ -1,20 +1,17 @@
-import Header from "./components/header";
-import Main from "./components/main";
-import About from "./components/about";
-import Project from "./components/projectFinal";
-import Contact from "./components/contact";
+import Header from "./components/header"
+import  Layout  from "./components/layout/index"
 import "./App.scss"
+import { Routes , Route} from "react-router-dom"
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Main />
-      <About />
-      <Project />
-      <Contact />
+      <Header />u
+      <Routes>
+       <Route path="/" element={<Layout />} />
+      </Routes>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
