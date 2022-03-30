@@ -3,6 +3,7 @@ import Main from "./components/main";
 import About from "./components/about";
 import Project from "./components/projectFinal";
 import Contact from "./components/contact";
+import "./App.scss"
 
 function App() {
   return (
