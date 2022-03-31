@@ -6,8 +6,8 @@ import Me from "../img/me.JPG"
 const Sidebar = () =>{ (
   <div className="nav-bar">
     <Link className="logo" to="/">
-      <img src={Me} className="" />
-    </Link>
+    <h1 className="name-title">RS</h1>   
+   </Link>
   </div>
 )
 }
