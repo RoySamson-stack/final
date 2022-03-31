@@ -2,6 +2,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+ 
 }
 
 
@@ -170,4 +171,58 @@ body{
   margin: 10px;
   display: flex;
   font-size: 20px;
+}
+.project{
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  
+  color: black;
+
+}
+
+.cards {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  margin: 10px;
+	position: relative;
+}
+.overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background-image: url(https://images4.alphacoders.com/153/153218.jpg);
+	background-size: cover;
+	-webkit-filter: blur(25px);
+	z-index: -1;
+}
+.box {
+	width: 800px;
+	display: flex;
+	height: 200px;
+	transform:translatex(60px)
+}
+.card-details {
+	width: calc(50% - 90px);
+	background-color: white;
+	line-height: 1.4;
+	padding: 10px;
+}
+.content h3 {
+	margin-bottom: 5px;
+}
+.image {
+	width: 50%;
+	border-bottom: 200px solid transparent;
+	border-left: 60px solid white;
+}
+.image img {
+	width: 100%;
+	height: 200px;
+	position: relative;
+	z-index: -1;
+	transform: translateX(-60px);
 }

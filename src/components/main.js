@@ -1,5 +1,6 @@
 import React from "react"
 import "./main.scss"
+// import Loader from 'react-loaders'
 
 import {FaGithub} from "react-icons/fa"
 
@@ -10,8 +11,10 @@ function Main() {
         <div className="box">
           <div className="title">
             <span className="block"></span>
+            <p className="intro">Hi, my name is </p>
+            <span></span>
             <h1>
-              Roy Samson<span></span>
+               Roy Samson<span></span>
             </h1>
           </div>
 
@@ -34,6 +37,7 @@ function Main() {
           </div>
         </footer>
       </a>
+      {/* <Loader type="pacman" /> */}
     </>
   )
 }

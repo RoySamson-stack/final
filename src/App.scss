@@ -1,6 +1,7 @@
 $primary-color: #ffd700;
 
 @import 'animate.css';
+// @import '~loader.css/src/animations/pacman.scss';
 
 @font-face {
   font-family: "Helvetica Neue",;
@@ -18,9 +19,9 @@ $primary-color: #ffd700;
   src: url("./assets/fonts/CoolveticaRg-Regular.woff2") format("woff2");
 }
 
-input, textarea{
-  font-family: "Helvetica Neue",
-}
+// input, textarea{
+//   font-family: "Helvetica Neue",
+// }
 
 
 
