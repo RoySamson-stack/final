@@ -174,9 +174,7 @@ body{
 }
 .project{
   height: 100vh;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  
+    
   color: black;
 
 }
@@ -185,25 +183,15 @@ body{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-  margin: 10px;
+  margin-bottom: 10px;
 	position: relative;
 }
-.overlay {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100vw;
-	height: 100vh;
-	background-image: url(https://images4.alphacoders.com/153/153218.jpg);
-	background-size: cover;
-	-webkit-filter: blur(25px);
-	z-index: -1;
-}
+
 .box {
 	width: 800px;
 	display: flex;
 	height: 200px;
-	transform:translatex(60px)
+	/* transform:translatex(60px) */
 }
 .card-details {
 	width: calc(50% - 90px);
