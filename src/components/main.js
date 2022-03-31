@@ -1,23 +1,40 @@
 import React from "react"
 import "./main.scss"
 
+import {FaGithub} from "react-icons/fa"
+
 function Main() {
   return (
-    <div class="container">
-      <div class="box">
-        <div class="title">
-          <span class="block"></span>
-          <h1>
-            Roy Samson<span></span>
-          </h1>
-        </div>
+    <>
+      <div className="container">
+        <div className="box">
+          <div className="title">
+            <span className="block"></span>
+            <h1>
+              Roy Samson<span></span>
+            </h1>
+          </div>
 
-        <div class="role">
-          <div class="block"></div>
-          <p>Fullstack Developer</p>
+          <div className="role">
+            <div className="block"></div>
+            <p>Fullstack Developer</p>
+          </div>
+        </div>
+        <div classNameName="description">
+
         </div>
       </div>
-    </div>
+      <a href="https://github.com/RoySamson-stack/" target="_blank">
+        <footer>
+          <div className="texto">
+            <span>
+              <FaGithub classNameName="github-icon"/>
+              Github
+            </span>
+          </div>
+        </footer>
+      </a>
+    </>
   )
 }
 export default Main

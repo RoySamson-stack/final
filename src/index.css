@@ -166,3 +166,8 @@ body{
     transform: translate(-22px,5px) skew(21deg); 
   }
 }
+.github-icon{
+  margin: 10px;
+  display: flex;
+  font-size: 20px;
+}
