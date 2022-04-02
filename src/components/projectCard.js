@@ -6,10 +6,9 @@ function ProjectCard(props) {
       <div className="cards">
        {/* <div class="overlay"></div> */}
         <div className="card-img">
-        {/* <img src={props.image} className="project-img" alt="projectimage" /> */}
         </div>
-        <div className="box">
         <div className="card-details">
+         <img src={props.image} className="project-img" alt="projectimage" />
         <p className="project-name">{props.name}</p>
         <p>{props.description}</p>
         <br/>
@@ -17,7 +16,6 @@ function ProjectCard(props) {
           {/* <img src={link} className="live-link" alt="live"/> */}
         </a>
         <p className="languages">{props.language}</p>
-        </div>
         </div>
        
       
