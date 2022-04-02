@@ -2,7 +2,7 @@
 
 
 .container {
-  // // width: 100%;
+  // width: 100%;
   height: 100vh;
   // // background: #232323;
 
@@ -107,6 +107,37 @@
          font-weight: 400;
         font-family: 'Lato';
         font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+      }
+    }
+
+    .introduction {
+      width: 70%;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 30px;
+      margin-top: 20px;
+
+      .block {
+        width: 0%;
+        height: inherit;
+        background: #e91e63;
+        position: absolute;
+        animation: secBlock 2s cubic-bezier(.1, .1, .9, .98) forwards;
+        animation-delay: 4s;
+        display: flex;
+      }
+
+      p {
+        animation: secFadeIn 2s forwards;
+        animation-delay: 5s;
+        opacity: 0;
+        //  font-weight: 400;
+        // font-family: 'Lato';
+        font-size: 13px;
         text-transform: uppercase;
         letter-spacing: 5px;
       }

@@ -22,9 +22,17 @@ function Main() {
             <div className="block"></div>
             <p>Fullstack Developer</p>
           </div>
+          <div className="introduction">
+            <div className="block"></div>
+            <p>I am a Fullstack developer specialized in building capivating website that bring the full user experience</p>
+            
+          </div>
+         
         </div>
-        <div classNameName="description">
-
+        <div className="btn-group">
+        <button className="btn">
+          Contact
+        </button>
         </div>
       </div>
       <a href="https://github.com/RoySamson-stack/" target="_blank" rel="noreferrer" >
