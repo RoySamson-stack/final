@@ -1,5 +1,5 @@
 import React from "react";
-import link from "./img/exit-top-right.png";
+// import link from "./img/exit-top-right.png";
 
 function ProjectCard(props) {
   return (

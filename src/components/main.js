@@ -27,7 +27,7 @@ function Main() {
 
         </div>
       </div>
-      <a href="https://github.com/RoySamson-stack/" target="_blank">
+      <a href="https://github.com/RoySamson-stack/" target="_blank" rel="noreferrer" >
         <footer>
           <div className="texto">
             <span>
