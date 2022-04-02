@@ -8,28 +8,29 @@ function About() {
   return (
     <div className="about">
       <h1 className="">About</h1>
+      <div className="about-container">
       <div className="about-content">
       <p>Hello my name is Roy Samson and I love creating web apps and websites. I started my web development journey back in 2020
         by starting out in Youtube tutorials and eventually enrolled in Moringa school in 2021 and did the Introduction to programming module learning HTML , CSS and 
         Javascript. 
 
         Fast-forward am currently can do both frontend and backend developement using technologies such as React for frontend and Nodejs for backend.
-
-        Techologies I have used as listed below.
+      Techologies I have used as listed below.
         <div className="lang-list">
-          <ul>
+          <ul className="list">
           <li>Javascript</li>
           <li>HTML</li>
           <li>CSS</li>
         </ul>
-        <ul>
+        <ul className="list">
           <li>React</li>
           <li>Expressjs</li>
           <li>Nodejs</li>
         </ul></div>
-        You can also iew more projects that are not listed below on my github.
+        You can also view my Linkedin and Github below.        
       </p>
       <img src={profile} alt="profile" className="profile-pic"/>
+      </div>
       </div>
       <div className="socials">
         <h1 className="contact-title">Socials</h1>
