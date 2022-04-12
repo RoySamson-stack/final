@@ -35,7 +35,7 @@ export default function Contact() {
         <input type="text" name="name" className="name-input" placeholder="Name"/>
         <input type="email" name="email" className="email-input" placeholder="Email"/>
         <textarea name="message" className="messages-input" placeholder="Messages"/>
-        <input type="submit" value="Send" className="contact-btn" />
+        <input type="submit" value="Send" className="contact-btn" id="contact-btn"/>
         </div>
       </form>
     </div>
