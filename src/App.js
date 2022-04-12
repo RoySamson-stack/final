@@ -1,5 +1,5 @@
 import Header from "./components/header"
-// import Contact from "./components/contact"
+import Contact from "./components/contact"
 import About from "./components/about"
 import Project from "./components/projectFinal"
 import Main from "./components/main"
@@ -12,8 +12,7 @@ function App() {
       <Main />
       <About />
       <Project />
-
-       {/* <Contact />  */}
+       <Contact /> 
     </div>
   )
 }
