@@ -1,5 +1,5 @@
 import React from "react";
-import profile from "./img/me.JPG"
+// import profile from "./img/me.JPG"
 import Github from "./img/github.png";
 import Linkedin from "./img/linkedin.png";
 
@@ -29,7 +29,7 @@ function About() {
         </ul></div>
         You can also view my Linkedin and Github below.        
       </p>
-      <img src={profile} alt="profile" className="profile-pic"/>
+      {/* <img src={profile} alt="profile" className="profile-pic"/> */}
       </div>
       </div>
       <div className="socials">

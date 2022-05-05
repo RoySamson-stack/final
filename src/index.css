@@ -4,7 +4,9 @@
   margin: 0;
 }
 
-
+html{
+  scroll-behavior: smooth;
+}
 
 body{
   color: white;
@@ -235,6 +237,7 @@ transition: transform .75s;
   width: 300px;
   height: 400px;
   object-fit: cover;
+  /* border-radius: 200px; */
 }
 .list{
   list-style:square;
@@ -296,25 +299,7 @@ align-items: center;
   letter-spacing: 2px;
   /* background:; */
 }
-#contact-btn:hover{
-  color: #833ab4;
-}
-#contact-btn::before{
-  content: '';
-  position: 'absolute';
-  top: 0;
-  left: -50px;
-  width: 0;
-  height: 100%;
-  background-color:#fff;
-  transform: skewX(35deg);
-  z-index: -1;
-  transition: width 1s;
 
-}
-#contact-btn:hover::before{
-  width: 150%;
-}
 @media all and (max-device-width: 576px)
  {
   .project-cards{
