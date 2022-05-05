@@ -12,27 +12,25 @@ function Main() {
         <div className="box">
           <main id="main" class="grid-container grid-container--home">
             <div>
+            <p>Hi, my name is</p>
               <h1 class="text-accent fs-500 ff-sans-cond uppercase letter-spacing-1">
-                So, you want to travel to
-                <span class="d-block fs-900 ff-serif text-white">Space</span>
+              Roy Samson 
+                <span class="d-block fs-900 ff-serif text-white">FULLSTACK DEVELOPER</span>
               </h1>
 
               <p>
-                Let’s face it; if you want to go to space, you might as well
-                genuinely go to outer space and not hover kind of on the edge of
-                it. Well sit back, and relax because we’ll give you a truly out
-                of this world experience!{" "}
+                specialising in both backend and frontend web developement building and making smooth deisgn websites.
               </p>
             </div>
             <div>
-              {/* <a
+              <a
                 href="destination.html"
                 class="large-button uppercase ff-serif text-dark bg-white"
               >
-                Explore
-              </a> */}
-              <img src={profile} alt="profile" 
-              class="large-button uppercase ff-serif text-dark bg-white profile-pic"/>
+              <img src={profile} alt="profile" className="profile-pic"/>
+              </a>
+              {/* <img src={profile} alt="profile" 
+              class="large-button uppercase ff-serif text-dark bg-white profile-pic"/> */}
 
             </div>
           </main>
@@ -41,7 +39,7 @@ function Main() {
           <button className="btn">Contact</button>
         </div>
       </div>
-      <a
+      {/* <a
         href="https://github.com/RoySamson-stack/"
         target="_blank"
         rel="noreferrer"
@@ -54,7 +52,7 @@ function Main() {
             </span>
           </div>
         </footer>
-      </a>
+      </a> */}
       {/* <Loader type="pacman" /> */}
     </>
   )
