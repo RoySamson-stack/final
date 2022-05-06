@@ -3,7 +3,7 @@ import "./main.css"
 // import Loader from 'react-loaders'
 import profile from "./img/me.JPG"
 
-import { FaGithub } from "react-icons/fa"
+// import { FaGithub } from "react-icons/fa"
 
 function Main() {
   return (
