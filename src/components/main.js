@@ -2,7 +2,7 @@ import React from "react"
 import "./main.css"
 import "../index.css"
 // import Loader from 'react-loaders'
-import profile from "./img/me.JPG"
+// import profile from "./img/me.JPG"
 
 // import { FaGithub } from "react-icons/fa"
 
