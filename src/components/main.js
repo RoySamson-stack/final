@@ -1,5 +1,6 @@
 import React from "react"
 import "./main.css"
+import "../index.css"
 // import Loader from 'react-loaders'
 import profile from "./img/me.JPG"
 
@@ -11,11 +12,11 @@ function Main() {
       <div className="container">
         <div className="box">
           <main id="main" class="grid-container grid-container--home">
-            <div>
+            <div className="">
             <p>Hi, my name is</p>
-              <h1 class="text-accent fs-500 ff-sans-cond uppercase letter-spacing-1">
+               <h1 class="text-accent fs-500 ff-sans-cond uppercase letter-spacing-1 name">{/* text accent */}
               Roy Samson 
-                <span class="d-block fs-900 ff-serif text-white">FULLSTACK DEVELOPER</span>
+                <span class="d-block fs-900 ff-serif role">FULLSTACK DEVELOPER</span>{/*text white*/}
               </h1>
 
               <p>
@@ -25,9 +26,11 @@ function Main() {
             <div>
               <a
                 href="destination.html"
-                class="large-button uppercase ff-serif text-dark bg-white"
-              >
-              <img src={profile} alt="profile" className="profile-pic"/>
+                class="large-button uppercase ff-serif lan"
+              >{/**text dark and background white */}
+              {/* <img src={profile} alt="profile" className="profile-pic"/> */}
+              Javascript,
+              PHP, PYTHON, CSS, React, Nodejs, SQL
               </a>
               {/* <img src={profile} alt="profile" 
               class="large-button uppercase ff-serif text-dark bg-white profile-pic"/> */}

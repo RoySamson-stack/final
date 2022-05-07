@@ -1,5 +1,6 @@
 :root {
   --clr-dark: 230 35% 7%;
+  --clr-lightdark: 0 0% 24%;
   --clr-light: 231 77% 90%;
   --clr-white: 0 0% 100%;
 
@@ -95,7 +96,22 @@
   opacity: 1;
   transform: scale(1.5);
 }
+.name{
+  color: hsl(var(--clr-light));
+}
 
+.lan {
+  color: hsl(var(--clr-dark));
+  background-color:hsl(var(--clr-white));
+  ;
+}
+.dark .name{
+  color:hsl(var(--clr-lightdark))
+}
+.dark .lan{
+  color:hsl(var(--clr-white));
+  background-color:hsl(var(--clr-dark))
+}
 
 @media (min-width: 45em) {
   .grid-container {
