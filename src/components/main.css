@@ -23,6 +23,13 @@
 .uppercase {
   text-transform: uppercase;
 }
+.major{
+ font-size: var(--fs-800)
+}
+.minor{
+  font-size: var(--fs-400)
+
+}
 
 .text-dark {
   color: hsl(var(--clr-dark));
@@ -33,7 +40,9 @@
 .text-white {
   color: hsl(var(--clr-white));
 }
-
+.text-lightdark{
+  color: hsl(var(--clr--lightddark))
+}
 .bg-dark {
   background-color: hsl(var(--clr-dark));
 }

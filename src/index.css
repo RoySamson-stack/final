@@ -12,6 +12,7 @@ html{
 body{
   color: white;
   margin: 0;
+  overflow: initial;
   font-family: "Helvetica Neue", "sans-serif";
   background: -webkit-radial-gradient(center, ellipse cover, #111 10%, #333 90%);
 }
@@ -184,6 +185,7 @@ transition: all 0.5s;
   gap: var(--_spacer);
   grid-auto-flow: column;
   grid-auto-columns: 21%;
+  background: var(--surface-5);
 
   padding: 0 var(--_spacer) var(--_spacer);
 
@@ -195,21 +197,29 @@ transition: all 0.5s;
   grid-auto-columns: 80%;
 }
 
-.media-group {
-  display: grid;
-  gap: var(--_spacer);
-  grid-auto-flow: column;
-}
-
 .project {
   display: grid;
   grid-template-rows: min-content;
   gap: var(--_spacer);
   padding: var(--_spacer);
-  background: var(--surface-2);
+  background: var(--surface-32);
   border-radius: var(--radius-2);
   box-shadow: var(--shadow-2);
   background-color: transparent !important;
+ 
+}
+::-webkit-scrollbar {
+  width: 2px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px transparent;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: transparent;
+  border-radius: 10px;
 }
 
 .project-img {
@@ -227,40 +237,20 @@ transition: all 0.5s;
   scroll-snap-align: start;
 }
 
-/* .card-details:hover .project-img{
-  transform:scale(1.15);
-
-} */
-
+.card-details{
+}
+.about-section{
+display:flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
 .about{
-  height: 70vh;
+
 }
-.about h1{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left:40px;
+.about-title{
   color:white;
-  margin: 10px;
-}
-.about-container{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.about-content{
-  margin-left: 50px;
-  grid-template-columns: 1fr 1fr;
-  gap: 1rem;
-  justify-content: center;
-  font: 'Lato';
-}
-.about-content p{
-  line-height: 1.5;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+
 }
 .lang-list{
   display:grid;

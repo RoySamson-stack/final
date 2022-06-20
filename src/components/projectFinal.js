@@ -6,9 +6,9 @@ function projectFinal() {
   return (
     <>
      
-      <div className="project" >
+      <div className="project snaps-inline" >
       <h1 classNmae="titles">Projects</h1>
-        <div className="project-cards">
+        <div className="project-cards snaps-inline">
 
         {projects.map((project) => (
           

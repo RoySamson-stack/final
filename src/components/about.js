@@ -6,33 +6,23 @@ import Linkedin from "./img/linkedin.png";
 
 function About() {
   return (
+    <div className="about-section">
+    <h1 className="about-title">About</h1>
     <div className="about">
-      <h1 className="">About</h1>
-      <div className="about-container">
       <div className="about-content">
-      <p>Hello my name is Roy Samson and I love creating web apps and websites. I started my web development journey back in 2020
-        by starting out in Youtube tutorials and eventually enrolled in Moringa school in 2021 and did the Introduction to programming module learning HTML , CSS and 
-        Javascript. 
-
-        Fast-forward am currently can do both frontend and backend developement using technologies such as React for frontend and Nodejs for backend.
-      Techologies I have used as listed below.
-        <div className="lang-list">
-          <ul className="list">
-          <li>Javascript</li>
-          <li>HTML</li>
-          <li>CSS</li>
-        </ul>
-        <ul className="list">
-          <li>React</li>
-          <li>Expressjs</li>
-          <li>Nodejs</li>
-        </ul></div>
-        You can also view my Linkedin and Github below.        
+      <p>
+        I am a full stack developer located in Nairobi, Kenya. 
+        I enjoy creating things on the internet. I started my journey back in 2020 and decided to dedicate my time 
+        to learn both front and backend web development. 
+        Currently am  taking part in a Software Engineering programs at <a className="text-accent" href="" target="blank">Jenga school</a> to increase my programming language pool and further my knowledge.
       </p>
-      {/* <img src={profile} alt="profile" className="profile-pic"/> */}
       </div>
-      </div>
-      <div className="socials">
+    </div>
+    </div>
+  )
+  }
+  export default About
+ /* <div className="socials">
         <h1 className="contact-title">Socials</h1>
         <div className="socials-container">
           <a href="https://www.linkedin.com/in/samsonroy/">
@@ -42,8 +32,4 @@ function About() {
             <img src={Github} className="social-icons" id="linkedin-icon" alt="icon"/>
           </a>
         </div>
-      </div>
-    </div>
-  );
-}
-export default About;
+      </div> */

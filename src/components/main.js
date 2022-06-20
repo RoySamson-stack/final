@@ -7,13 +7,13 @@ function Main() {
   return (
     <>
       <div className="container">
-         <div className="box">
+         <div className="box minor name">
           Hi, my name is<br/>
-                  <h1 class="text-accent fs-500 ff-sans-cond uppercase letter-spacing-1">{/* text accent */}
-                  Roy Samson 
+                  <h1 class="text-accent major ff-sans-cond uppercase letter-spacing-1">{/* text accent */}
+                  Roy Samson <br />
                     <span class="">FULLSTACK DEVELOPER</span>{/*text white*/}
                   </h1>
-                  <p id="description">
+                  <p id="description minor">
                     specialising in both backend and frontend web developement building and making smooth deisgn websites.
                   </p>
              </div>
