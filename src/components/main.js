@@ -9,7 +9,7 @@ function Main() {
       <div className="container">
          <div className="box">
           Hi, my name is<br/>
-                  <h1 class="text-accent fs-500 ff-sans-cond uppercase letter-spacing-1 ">{/* text accent */}
+                  <h1 class="text-accent fs-500 ff-sans-cond uppercase letter-spacing-1">{/* text accent */}
                   Roy Samson 
                     <span class="">FULLSTACK DEVELOPER</span>{/*text white*/}
                   </h1>
