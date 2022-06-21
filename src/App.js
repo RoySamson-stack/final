@@ -7,7 +7,7 @@ import Main from "./components/main"
 import "./App.scss"
 import "./index.css"
 
-import {useRef, useState} from "react"
+// import {useRef, useState} from "react"
 
 function App() {
   // const [loading, setLoading] = useState
