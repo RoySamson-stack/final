@@ -5,11 +5,13 @@ function ProjectCard(props) {
         <div className="card-details">
           <img src={props.image} className="project-img" alt="projectimage" />
           <p className="project-name">{props.name}</p>
-          <p>{props.description}</p>
+          {/* <p>{props.description}</p> */}
           <br/>
-          <a href={props.url} className="" target="blank">
+          <a href={props.url} className="livesite_link" target="blank">
+          live site
           </a>
-          <p className="languages">{props.language}</p>
+          <br />
+          {/* <p className="languages">{props.language}</p> */}
         </div>
        
       

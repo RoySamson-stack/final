@@ -5,9 +5,19 @@ import Project from "./components/projectFinal"
 import Main from "./components/main"
 import "./App.scss"
 import "./index.css"
-import {useState} from "react"
+import {useRef, useState} from "react"
 
 function App() {
+  const contact = useRef(null)
+  const projects = useRef(null)
+
+  const scrollToSection = (elementRef) => {
+    window.scrollTo({
+      top: elementRef.current.offsetTop,
+      behavior: 'smooth'
+    })
+  }
+
   return (
     <div className="App">
       <Header />
