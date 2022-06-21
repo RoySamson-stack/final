@@ -2,6 +2,9 @@ import React from "react";
 // import profile from "./img/me.JPG"
 import Github from "./img/github.png";
 import Linkedin from "./img/linkedin.png";
+import "./cube.css"
+
+
 
 
 function About() {
@@ -17,6 +20,15 @@ function About() {
         Currently am  taking part in a Software Engineering programs at <a className="text-accent" href="https://www.jengaschool.com/" target="blank">Jenga school</a> to increase my programming language pool and further my knowledge.
       </p>
       </div>
+      <div class="slider">
+      <div class='container-a'>
+        <div class='slide x'></div>
+        <div class='slide y'></div>
+        <div class='slide z'></div>
+      </div>
+	  <div class='shadow'></div>
+   </div>	
+
     </div>
     </div>
   )
