@@ -19,7 +19,15 @@ function About() {
         to learn both front and backend web development. 
         Currently am  taking part in a Software Engineering programs at <a className="text-accent" href="https://www.jengaschool.com/" target="blank">Jenga school</a> to increase my programming language pool and further my knowledge.
         <br />
-        I am currentl
+        Skills :-
+        <ul>
+          <li>Reactjs</li>
+          <li>Python</li>
+          <li>CSS</li>
+          <li>PHP</li>
+          <li>MongoDB</li>
+          <li>Javascript</li>
+        </ul>
       
 
       </p>

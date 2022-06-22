@@ -76,7 +76,7 @@
 
 			.slide.y:after {
 				content: '';
-				background-image: url('./img/css-square.png');
+				background-image: url('./img/react-square.png');
         background-color: rgb(231, 96, 202);
 				-webkit-transform: translateZ(100px) scale(-1);
 				        transform: translateZ(100px) scale(-1);

@@ -30,7 +30,8 @@ body{
   align-items:center;
 }
 .container:hover ~ .cursor{
-  transform: scale(1.2)
+  transform: scaleX(1);
+  transform: scaleY(1);
 }
 .resume{
   width: 20px;
