@@ -3,6 +3,12 @@
   --clr-lightdark: 0 0% 24%;
   --clr-light: 231 77% 90%;
   --clr-white: 0 0% 100%;
+  --backgroundColor: #232323;
+  --firstColor: #00D69C;
+  --secondColor: #C52AFC;
+  --thirdColor: #FF1F00;
+  --fourthColor: #FFD600;
+  --dropShadowColor: rgba(0, 0, 0, .7);
 
   /*font-sizes */
   --fs-900: clamp(5rem, calc(8vw + 1rem), 9.375rem);
@@ -141,4 +147,25 @@
   .grid-container--home > *:last-child {
       grid-column: 3;
   }
+}
+.box{
+  position: relative;
+}
+.blob {
+  margin: auto;
+  position: absolute;
+  display: none;
+}
+
+svg {
+  transform-origin: 50% 50%;
+  animation: move 24s ease-in-out infinite;
+}
+
+@keyframes move {
+  0%   { transform: scale(1)   translate(0, 0) rotate(0); fill: var(--firstColor); background-image: url('./img/html-square.png');filter: drop-shadow( 20px 14px 10px var(--dropShadowColor)); }
+  25%  { transform: scale(0.8) translate(5vw, 10vh) rotate(55deg); fill: var(--secondColor); filter: drop-shadow( 14px 14px 6px var(--dropShadowColor)); }
+  50%  { transform: scale(0.6) translate(15vw, 5vh) rotate(180deg); fill: var(--thirdColor); filter: drop-shadow( -16px -16px 16px var(--dropShadowColor)); }
+  75%  { transform: scale(0.8) translate(5vw, 10h) rotate(55deg); fill: var(--fourthColor); filter: drop-shadow( 14px 14px 6px var(--dropShadowColor)); }
+  100% { transform: scale(1)   translate(0, 0) rotate(0); fill: var(--firstColor); filter: drop-shadow( 20px 14px 10px var(--dropShadowColor)); }
 }

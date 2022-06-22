@@ -40,7 +40,7 @@
 			display: block;
 			width: inherit;
 			height: inherit;
-			background: url('./img/javascript-square.png');
+			background: url('https://www.linkpicture.com/q/react-square.png');
       background-color: rgb(119, 212, 200);
 			position: absolute;
 			-webkit-transform-style: preserve-3d;
@@ -56,14 +56,15 @@
 
 			.slide.x:after {
 				content: '';
-				background-image: url('./img/python-square.jpeg');
+				background-image: url('https://www.linkpicture.com/q/python-square.jpeg');
 				-webkit-transform: translateZ(100px) rotateZ(-90deg);
 				        transform: translateZ(100px) rotateZ(-90deg);
 			}
 
 			.slide.x:before {
 				content: '';
-				background-image: url('./img/react-square.png');
+				background-image: url('https://www.linkpicture.com/q/javascript-square.png');
+				transform: rotateX(270deg);
         background-color: rgb(119, 153, 224);
 				-webkit-transform: translateZ(-100px) rotateZ(-90deg);
 				        transform: translateZ(-100px) rotateZ(-90deg);
@@ -76,7 +77,7 @@
 
 			.slide.y:after {
 				content: '';
-				background-image: url('./img/react-square.png');
+				background-image: url('https://www.linkpicture.com/q/css-square.png');
         background-color: rgb(231, 96, 202);
 				-webkit-transform: translateZ(100px) scale(-1);
 				        transform: translateZ(100px) scale(-1);
@@ -84,7 +85,9 @@
 
 			.slide.y:before {
 				content: '';
-				background-image: url('./img/mongo.png');
+				background-image: url('https://www.linkpicture.com/q/mongo_1.png');
+				transform: rotateY(180deg);
+				/* transform: rotateX(180deg); */
 				-webkit-transform: translateZ(-100px);
 				        transform: translateZ(-100px);
 			}
@@ -96,15 +99,15 @@
 
 			.slide.z:after {
 				content: '';
-				background-image: url('./img/javascript-square.png');
+				background-image: url('https://www.linkpicture.com/q/react-square.png');
 				-webkit-transform: translateZ(100px);
 				        transform: translateZ(100px);
 			}
 
 			.slide.z:before {
 				content: '';
-				background-image: url('./img/html-square.png');
-        background-color: rgb(165, 96, 231);
+				background-image: url('https://www.linkpicture.com/q/html-square.png');
+        /* background-color: rgb(165, 96, 231); */
 				-webkit-transform: translateZ(-100px);
 				        transform: translateZ(-100px);
 			}

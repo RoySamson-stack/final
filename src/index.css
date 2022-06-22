@@ -31,8 +31,8 @@ body{
 }
 
 .resume{
-  width: 20px;
-  height: 20px;
+  width: 5px;
+  height: 5px;
   display: none;
 }
 /* .resume-loader{
