@@ -18,7 +18,12 @@ function About() {
         I enjoy creating things on the internet. I started my journey back in 2020 and decided to dedicate my time 
         to learn both front and backend web development. 
         Currently am  taking part in a Software Engineering programs at <a className="text-accent" href="https://www.jengaschool.com/" target="blank">Jenga school</a> to increase my programming language pool and further my knowledge.
+        <br />
+        I am currentl
+      
+
       </p>
+       
       </div>
       <div class="slider">
       <div class='container-a'>

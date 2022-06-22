@@ -22,12 +22,36 @@ body{
   align-items: center;
   width: 100%;
   padding: 20px;
-}.container{
+}
+.container{
   height: 90vh;
   display: flex;
   justify-content: center;
   align-items:center;
 }
+.container:hover ~ .cursor{
+  transform: scale(1.2)
+}
+.resume{
+  width: 20px;
+  height: 20px;
+  display: none;
+}
+/* .resume-loader{
+  padding: 20px;
+  color: black;
+} */
+.cursor{
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  position: fixed;
+  border-radius: 50%;
+  pointer-events: none;
+  mix-blend-mode: difference;
+}
+
+
 .introduction-main{
   display: flex;
   justify-content: center;
@@ -140,22 +164,22 @@ body{
   width: 30%;
   height: 0%;
 }
-.btn{
+.resume-loader{
  
 animation: secFadeIn 4s forwards;
-animation-delay: 5s;
- margin-top: 10px;
+animation-delay: 1s;
+ margin-top: 20px;
 text-decoration: none;
 font-size: 20px;
-padding: 5px;
+padding: 2px;
 background: transparent;
 color: #1fe8b6;
 border:3px solid #1fe8b6;
 position: relative;
 opacity: 0;
 }
-.btn::before, 
-.btn::after
+.resume-loader::before, 
+.resume-loader::after
 {
 content: "";
 position: absolute;
@@ -164,17 +188,17 @@ height: 40px;
 border: inherit;
 transition: all 0.5s;
 }
-.btn::before{
+.resume-loader::before{
   top: -15px;
   left: -15px;border-width: 3px 0 0 3px;
 }
-.btn::after{
+.resume-loader::after{
   bottom: -15px;
   right: -15px;
   border-width: 0 3px 3px 0;
 }
-.btn:hover::before,
-.btn:hover::after
+.resume-loader:hover::before,
+.resume-loader:hover::after
 {
   width: calc(100% + 27px);
   height: calc(100% + 27px);
