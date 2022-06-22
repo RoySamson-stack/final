@@ -29,10 +29,7 @@ body{
   justify-content: center;
   align-items:center;
 }
-.container:hover ~ .cursor{
-  transform: scaleX(1);
-  transform: scaleY(1);
-}
+
 .resume{
   width: 20px;
   height: 20px;
@@ -42,6 +39,7 @@ body{
   padding: 20px;
   color: black;
 } */
+
 .cursor{
   width: 20px;
   height: 20px;
@@ -50,6 +48,11 @@ body{
   border-radius: 50%;
   pointer-events: none;
   mix-blend-mode: difference;
+}
+
+.container:hover ~ cursor{
+  transform: scaleX(5);
+ 
 }
 
 
@@ -341,6 +344,7 @@ color: white;
 .contact{
   margin: 20px;
 height: 70vh;
+color: black;
 }
 .contact-form{
   /* display:flex;
@@ -386,6 +390,10 @@ align-items: center;
   outline: 2px solid #fff;
   letter-spacing: 2px;
   /* background:; */
+}
+#contact-btn:hover{
+  background-color: lightblue;
+  color:black;
 }
 #cursor{
   position: absolute;

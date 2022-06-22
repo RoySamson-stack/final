@@ -27,7 +27,7 @@ export default function Contact() {
   };
 
   return (
-    <div className="contact">
+    <div className="contact" id="contacts">
       <form ref={form} onSubmit={sendEmail} className="contact-form">
         <h1 className="contact-title">CONTACT</h1>
         <div className="contact-details">

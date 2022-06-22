@@ -6,7 +6,7 @@ function projectFinal() {
   return (
     <>
      
-      <div className="project snaps-inline" >
+      <div className="project snaps-inline"  id="projects">
       <h1 classNmae="titles">Projects</h1>
         <div className="project-cards snaps-inline">
 

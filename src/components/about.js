@@ -9,7 +9,7 @@ import "./cube.css"
 
 function About() {
   return (
-    <div className="about-section">
+    <div className="about-section" id="about">
     <h1 className="about-title">About</h1>
     <div className="about">
       <div className="about-content">
