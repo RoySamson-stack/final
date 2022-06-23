@@ -1,20 +1,29 @@
-import React from "react";
+import React from "react"
+import "./test.css"
 
 function ProjectCard(props) {
+
   return (
+    <div className="card" 
+    >
+      <div className="card-body">
         <div className="card-details">
           <img src={props.image} className="project-img" alt="projectimage" />
-          <p className="project-name">{props.name}</p>
-          {/* <p>{props.description}</p> */}
-          <br/>
+          <p className="card-title">{props.name}</p>
           <a href={props.url} className="livesite_link" target="blank">
-          live site
+            live site
           </a>
+          <div className="">
+            <p>{props.description}</p>
+            <br />
+            <p className="languages">{props.language}</p>
+          </div>
+
           <br />
-          {/* <p className="languages">{props.language}</p> */}
+          <div className="glow"></div>
         </div>
-       
-      
-  );
+      </div>
+    </div>
+  )
 }
-export default ProjectCard;
+export default ProjectCard

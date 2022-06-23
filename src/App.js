@@ -18,6 +18,7 @@ function App() {
     setCursorY(e.pageY)
   })
 
+
   return (
     <div className="App">
       <div
@@ -27,7 +28,6 @@ function App() {
           top: cursorY + "px",
         }}
       ></div>
-      {/* <Loader /> */}
       <Header />
       <Main />
       <About />

@@ -1,6 +1,7 @@
-import React, { useState } from "react"
+import React from "react"
 import "./main.css"
 import "../index.css"
+import Typewriter from "typewriter-effect"
 import resume from "../assets/files/FULLSTACKCV (2).pdf"
 import { Document, Page, pdfjs } from "react-pdf"
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`
@@ -16,8 +17,19 @@ function Main() {
           <h1 className="text-accent major ff-sans-cond uppercase letter-spacing-1 name">
             {/* text accent */}
             Roy Samson <br />
-            <span className="name">FULLSTACK DEVELOPER</span>
-            {/*text white*/}
+            <span className="name">
+            <Typewriter 
+              onInit={(typewriter) =>{
+                typewriter
+                .typeString('Fullstack Developer')
+                .pauseFor(1000)
+                .deleteAll(50)
+                .typeString("Web Designer")
+                .start()
+              }}
+
+            />
+            </span>
           </h1>
           <p id="description minor">
             specialising in both backend and frontend web developement building

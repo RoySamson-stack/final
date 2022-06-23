@@ -5,10 +5,9 @@ import projects from "./projects"
 function projectFinal() {
   return (
     <>
-     
-      <div className="project snaps-inline"  id="projects">
-      <h1 classNmae="titles">Projects</h1>
-        <div className="project-cards snaps-inline">
+    <h1 className="titles">Projects</h1>
+      <div className="project "  id="projects">
+        <div className="project-cards ">
 
         {projects.map((project) => (
           
